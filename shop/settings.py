@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'shop.wsgi.application'
 #     }
 # }
 import dj_database_url
-DATABASE = {
+DATABASES = {
     'default': dj_database_url.config(
         default=config('DATABASE_URL')
     )
